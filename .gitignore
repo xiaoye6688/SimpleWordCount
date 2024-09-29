@@ -1,0 +1,25 @@
+# SBT specific
+target/
+project/target/
+project/project/
+.idea/
+.vscode/
+*.iml
+
+# Scala specific
+*.class
+*.log
+*.cache
+*.tmp
+*.swp
+
+# Spark specific
+spark-warehouse/
+metastore_db/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
